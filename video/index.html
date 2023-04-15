@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- PRELOADER -->
+  <div class="preloader">
+    <img src="preloader.gif" alt="preloader" />
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <video muted autoplay loop class="video-container">
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <h1>DUDE'S CRAZY!</h1>
+    <p>You can't just go running through the desert like that!</p>
+    <p>You'll get heat stroke!</p>
+    <p>OR WORSE!</p>
+
+    <!-- VIDEO SWITCH -->
+    <button class="switch-btn">
+      <span>
+        play
+      </span>
+      <span>
+        pause
+      </span>
+      <span class="switch"></span>
+    </button>
+  </header>
+
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
